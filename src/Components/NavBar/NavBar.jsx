@@ -7,8 +7,8 @@ import { useState } from "preact/hooks";
 
 export default function NavBar() {
 
-    const [isLogged, setIsLogged] = useState(false)
-
+    const [isLogged, setIsLogged] = useState(localStorage.getItem("nome") ? true : false)
+    console.log(isLogged)
     return (
         <>
             {isLogged && <nav>
