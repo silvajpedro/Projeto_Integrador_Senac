@@ -1,0 +1,70 @@
+.FormBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      font-size: 2.8em;
+      text-align: center;
+      color: #032161;
+    }
+    p:nth-child(2){
+        color: #032161;
+        margin-top: 12px;
+        margin-bottom: 5px;
+        font-size: 1.85em; 
+    }
+    button {
+        width: 80%;
+        padding: 8px;
+        background-color: transparent;
+        border: solid 3px #032161;
+        color: #032161;
+        border-radius: 12px;
+        margin-top: 15px;
+        font-size: 1.2em;
+        font-weight: 900;
+        cursor: pointer;
+      }
+      p:nth-child(6){
+        // border: solid;
+        color:#032161 ;
+        margin-top:18px;
+    }
+}
+.InputsBox{
+    display:flex;
+    flex-direction: column;
+    width: 68%;
+    height: 13vh;
+    // border: solid red;
+    label{
+        color: #ffffff;
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+    input {
+      width: 100%;
+      margin-top: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color:#496693;
+      color: #ffffff;
+      padding: 1em;
+    }
+    input::placeholder{
+        color: #ffffff;
+        font-size: 1.3em;
+    }
+}
+.FigureBox{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    color: #032161;
+    svg{
+       font-size: 4.5em;
+    }
+}

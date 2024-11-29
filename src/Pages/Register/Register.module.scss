@@ -1,0 +1,68 @@
+.FormBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    h2 {
+      font-size: 2.3em;
+      text-align: center;
+      color: #032161;
+    }
+    
+    p {
+        color: #032161;
+        margin-top: 12px;
+        margin-bottom: 5px;
+        font-size: 1em;
+    }
+
+    p span {
+        font-weight: 900;
+        color: #ffffff;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    button {
+        width: 70%;
+        padding: 8px;
+        background-color: #032161;
+        border: solid 3px #032161;
+        color: #ffffff;
+        border-radius: 12px;
+        margin-top: 35px;
+        font-size: 1.2em;
+        font-weight: 900;
+        cursor: pointer;
+    }
+}
+
+.InputsBox {
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+    height: 13vh;
+
+    label {
+        color: #ffffff;
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    input {
+        width: 100%;
+        margin-top: 15px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #496693;
+        color: #ffffff;
+        padding: 1em;
+    }
+
+    input::placeholder {
+        color: #ffffff;
+        font-size: 1.3em;
+    }
+}
