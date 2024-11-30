@@ -3,15 +3,12 @@ import { FaHouse } from "react-icons/fa6";
 import { MdChat } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { useState } from "preact/hooks";
+import s from "./NavBar.module.scss"
 
 export default function NavBar() {
-
-    const [isLogged, setIsLogged] = useState(localStorage.getItem("nome") ? true : false)
-    console.log(isLogged)
     return (
         <>
-            {isLogged && <nav>
+            <div className={s.IconsBox}>
                 <Link to="/home">
                     <FaHouse />
                 </Link>
@@ -24,7 +21,7 @@ export default function NavBar() {
                 <Link to="/home">
                     <RxHamburgerMenu />
                 </Link>
-            </nav>}
+            </div>
         </>
     )
 }

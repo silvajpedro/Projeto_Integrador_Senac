@@ -1,7 +1,8 @@
 .MainBox{
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 98vh;
     width: 100%;
 }

@@ -1,0 +1,54 @@
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bed9e6;
+  }
+  
+  .Header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.20em;
+    color: #032161;
+  }
+  
+  p {
+    color: #032161;
+    font-size: 1.1em;
+    margin-top:12px;
+  }
+  
+  .ServiceIcons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .ServiceItem {
+      display: flex;
+      align-items: center;
+      width:81vw;
+      color: white;
+      border-radius: 10px;
+      text-align: center;
+      margin-top:20px;
+      svg{
+        background-color: #032161;
+        width: 20vw;
+        height: 10vh;
+        padding: 10px;
+        border-radius: 10px;
+    }
+  }
+  
+  .ServiceItem h3 {
+    font-size: 1em;
+    color: #032161;
+  }
+  
+
+  
+
+  
